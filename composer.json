@@ -1,0 +1,24 @@
+{
+  "name": "haosheng0211/laravel-hcaptcha",
+  "autoload": {
+    "psr-4": {
+      "HaoSheng\\Hcaptcha\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MrJin",
+      "email": "haosheng0211@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "8.*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HaoSheng\\Hcaptcha\\HCaptchaServiceProvider"
+      ]
+    }
+  }
+}
